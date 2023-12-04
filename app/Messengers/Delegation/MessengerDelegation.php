@@ -10,10 +10,10 @@ class MessengerDelegation implements MessengerInterface
 {
     private $messenger;
 
-    public function __construct()
-    {
-        $this->toEmail();
-    }
+//    public function __construct()
+//    {
+//        $this->toEmail();
+//    }
 
     public function toEmail()
     {
