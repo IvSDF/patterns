@@ -53,6 +53,6 @@ class MessengerDelegation implements MessengerInterface
 
     public function send()
     {
-        $this->messenger->send();
+        return $this->messenger->send();
     }
 }
